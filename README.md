@@ -54,3 +54,19 @@ set GEMINI_API_KEY="your_api_key_here"
 
 # Start Flask server (Runs on [http://127.0.0.1:5000](http://127.0.0.1:5000))
 python app.py
+
+```
+
+### 2. Frontend Configuration
+
+```bash
+# Navigate to frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start Vite dev server (Runs on http://localhost:5173)
+npm run dev
+
+
