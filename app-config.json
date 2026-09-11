@@ -1,0 +1,63 @@
+{
+  "appMeta": {
+    "title": "DataFlow Hub — Data Operations Suite",
+    "version": "1.0.0",
+    "theme": {
+      "palette": "dark-slate-navy",
+      "background": "#0F172A",
+      "surface": "#1E293B",
+      "accent": "#38BDF8"
+    },
+    "layout": {
+      "container": "fixed-width",
+      "sidebar": true,
+      "modalSupport": true
+    }
+  },
+  "modules": [
+    {
+      "id": "client-store-management",
+      "title": "Client Store Management & Data Quality Tracker",
+      "route": "/clients",
+      "layoutType": "split-pane",
+      "dataSources": [
+        {
+          "name": "RetailClientStoreData",
+          "type": "REST_API",
+          "endpoint": "/api/v1/clients/stores"
+        }
+      ],
+      "uiComponents": [
+        {
+          "componentId": "store-mgmt-table",
+          "type": "DataTable",
+          "props": {
+            "searchable": true,
+            "actions": ["Edit", "CleanData", "GenerateEmail"]
+          }
+        },
+        {
+          "componentId": "data-clean-modal",
+          "type": "ConfigModal",
+          "props": {
+            "title": "Data Cleansing Configuration & Trace Preview",
+            "showTransformationTrace": true
+          }
+        }
+      ],
+      "aiCapabilities": [
+        {
+          "feature": "automated-data-cleansing",
+          "trigger": "onRunCleansing",
+          "systemPrompt": "You are a Data Engineering AI. Analyze the dirty client JSON payload for missing values or schema deviations. Return a cleaned payload and a step-by-step transformation trace.",
+          "backendService": "Flask_ML_Pipeline"
+        },
+        {
+          "feature": "notification-assistant",
+          "trigger": "onGenerateEmail",
+          "systemPrompt": "You are a Customer Operations Assistant. Generate a professional summary email alerting the retail client of resolved data quality issues."
+        }
+      ]
+    }
+  ]
+}
