@@ -1,0 +1,9 @@
+store_id,store_name,date,sales,quantity
+ST-101, Metro Retail Alpha ,01/10/2026,100,10
+ST-102, Urban Mart West ,02/10/2026,120,12
+ST-103, Metro Retail Bipte ,03/10/2026,90,9
+ST-101, Metro Retail Alpha ,04/10/2026,130,13
+ST-102, Urban Mart West ,05/10/2026,150,15
+ST-103, Metro Retail Bipte ,06/10/2026,oops,16
+ST-101, Metro Retail Alpha ,07/10/2026,,10
+ST-101, Metro Retail Alpha ,07/10/2026,,10
