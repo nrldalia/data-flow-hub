@@ -1,12 +1,12 @@
 @echo off
 setlocal
 title DataFlow - Localhost
-set "APP_DIR=%~dp0V1.4.0"
-if not exist "%APP_DIR%\script\app.py" set "APP_DIR=%~dp0..\V1.4.0"
+set "APP_DIR=%~dp0V1.4.A1"
+if not exist "%APP_DIR%\script\app.py" set "APP_DIR=%~dp0..\V1.4.A1"
 if not exist "%APP_DIR%\script\app.py" goto missing
 cd /d "%APP_DIR%"
 set "DATAFLOW_PORT=5001"
-powershell -NoProfile -Command "try { $r=Invoke-RestMethod 'http://127.0.0.1:5001/api/v1/health' -TimeoutSec 2; if ($r.version -eq '1.4.0') { exit 0 } } catch {}; exit 1" >nul 2>&1
+powershell -NoProfile -Command "try { $r=Invoke-RestMethod 'http://127.0.0.1:5001/api/v1/health' -TimeoutSec 2; if ($r.version -eq '1.4.A1') { exit 0 } } catch {}; exit 1" >nul 2>&1
 if not errorlevel 1 goto already_running
 if exist ".venv\Scripts\python.exe" goto local_python
 set "PYTHON_EXE=%USERPROFILE%\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
@@ -32,7 +32,7 @@ exit /b
 start "" "http://127.0.0.1:5001/"
 exit /b
 :missing
-echo Cannot find the V1.4.0 application beside this launcher.
+echo Cannot find the V1.4.A1 application beside this launcher.
 pause
 exit /b 1
 :failed
