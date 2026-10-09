@@ -1,0 +1,1 @@
+Production Vite build and backend regression tests passed. Bulk-delete tests cover removal of selected configurations/samples, retained batch audits and storecode registry, rejection of active jobs, and atomic rejection of invalid or missing selections. Interactive browser verification was not performed.
