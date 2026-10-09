@@ -1,0 +1,3972 @@
+[
+  {
+    "name": "Detect missing values",
+    "category": "Cleaning",
+    "example": "Example: Flag missing store addresses.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-detect-missing-values"
+  },
+  {
+    "name": "Drop rows with missing values",
+    "category": "Cleaning",
+    "example": "Example: Flag missing store addresses.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-drop-rows-with-missing-values"
+  },
+  {
+    "name": "Drop columns with missing values",
+    "category": "Cleaning",
+    "example": "Example: Flag missing store addresses.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-drop-columns-with-missing-values"
+  },
+  {
+    "name": "Flag missing values",
+    "category": "Cleaning",
+    "example": "Example: Flag missing store addresses.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-flag-missing-values"
+  },
+  {
+    "name": "Impute missing values",
+    "category": "Cleaning",
+    "example": "Example: Flag missing store addresses.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-impute-missing-values"
+  },
+  {
+    "name": "Exact duplicate rows",
+    "category": "Cleaning",
+    "example": "Example: Identify repeated retailer store records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-exact-duplicate-rows"
+  },
+  {
+    "name": "Key-column duplicates",
+    "category": "Cleaning",
+    "example": "Example: Identify repeated retailer store records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-key-column-duplicates"
+  },
+  {
+    "name": "Near or fuzzy duplicates",
+    "category": "Cleaning",
+    "example": "Example: Identify repeated retailer store records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-near-or-fuzzy-duplicates"
+  },
+  {
+    "name": "Keep first duplicate",
+    "category": "Cleaning",
+    "example": "Example: Identify repeated retailer store records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-keep-first-duplicate"
+  },
+  {
+    "name": "Keep last duplicate",
+    "category": "Cleaning",
+    "example": "Example: Identify repeated retailer store records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-keep-last-duplicate"
+  },
+  {
+    "name": "Keep most complete duplicate",
+    "category": "Cleaning",
+    "example": "Example: Identify repeated retailer store records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-keep-most-complete-duplicate"
+  },
+  {
+    "name": "Keep most recent duplicate",
+    "category": "Cleaning",
+    "example": "Example: Identify repeated retailer store records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-keep-most-recent-duplicate"
+  },
+  {
+    "name": "Trim leading and trailing spaces",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "trim",
+    "defaults": {},
+    "id": "REF-cleaning-trim-leading-and-trailing-spaces"
+  },
+  {
+    "name": "Collapse internal spaces",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-collapse-internal-spaces"
+  },
+  {
+    "name": "Remove control characters",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-control-characters"
+  },
+  {
+    "name": "Remove special characters",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-special-characters"
+  },
+  {
+    "name": "Replace special characters",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-replace-special-characters"
+  },
+  {
+    "name": "Remove emojis",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-emojis"
+  },
+  {
+    "name": "Normalize Unicode NFC",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-normalize-unicode-nfc"
+  },
+  {
+    "name": "Normalize Unicode NFD",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-normalize-unicode-nfd"
+  },
+  {
+    "name": "Normalize Unicode NFKC",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-normalize-unicode-nfkc"
+  },
+  {
+    "name": "Normalize Unicode NFKD",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-normalize-unicode-nfkd"
+  },
+  {
+    "name": "Fix encoding errors",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-fix-encoding-errors"
+  },
+  {
+    "name": "Decode HTML entities",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-decode-html-entities"
+  },
+  {
+    "name": "Strip HTML tags",
+    "category": "Cleaning",
+    "example": "Example: Clean unwanted characters from store names.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-strip-html-tags"
+  },
+  {
+    "name": "Lowercase normalization",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "lowercase",
+    "defaults": {},
+    "id": "REF-cleaning-lowercase-normalization"
+  },
+  {
+    "name": "Uppercase normalization",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "uppercase",
+    "defaults": {},
+    "id": "REF-cleaning-uppercase-normalization"
+  },
+  {
+    "name": "Title case normalization",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-title-case-normalization"
+  },
+  {
+    "name": "Remove accents",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-accents"
+  },
+  {
+    "name": "Standardize abbreviations",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-standardize-abbreviations"
+  },
+  {
+    "name": "Spelling correction",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-spelling-correction"
+  },
+  {
+    "name": "Standardize synonyms",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-standardize-synonyms"
+  },
+  {
+    "name": "Standardize categories",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-standardize-categories"
+  },
+  {
+    "name": "Remove stop words",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-stop-words"
+  },
+  {
+    "name": "Remove punctuation",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-punctuation"
+  },
+  {
+    "name": "Remove numbers",
+    "category": "Cleaning",
+    "example": "Example: Standardize retailer names before matching.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-numbers"
+  },
+  {
+    "name": "Fix wrong data types",
+    "category": "Cleaning",
+    "example": "Example: Preserve leading zeros in store IDs.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-fix-wrong-data-types"
+  },
+  {
+    "name": "Resolve mixed column types",
+    "category": "Cleaning",
+    "example": "Example: Preserve leading zeros in store IDs.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-resolve-mixed-column-types"
+  },
+  {
+    "name": "Standardize inconsistent dates",
+    "category": "Cleaning",
+    "example": "Example: Preserve leading zeros in store IDs.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-standardize-inconsistent-dates"
+  },
+  {
+    "name": "Standardize decimal separators",
+    "category": "Cleaning",
+    "example": "Example: Preserve leading zeros in store IDs.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-standardize-decimal-separators"
+  },
+  {
+    "name": "Standardize thousand separators",
+    "category": "Cleaning",
+    "example": "Example: Preserve leading zeros in store IDs.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-standardize-thousand-separators"
+  },
+  {
+    "name": "Remove currency symbols",
+    "category": "Cleaning",
+    "example": "Example: Preserve leading zeros in store IDs.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-currency-symbols"
+  },
+  {
+    "name": "Remove units from values",
+    "category": "Cleaning",
+    "example": "Example: Preserve leading zeros in store IDs.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-units-from-values"
+  },
+  {
+    "name": "Restore leading zeros",
+    "category": "Cleaning",
+    "example": "Example: Preserve leading zeros in store IDs.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-restore-leading-zeros"
+  },
+  {
+    "name": "Fix scientific notation in IDs",
+    "category": "Cleaning",
+    "example": "Example: Preserve leading zeros in store IDs.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-fix-scientific-notation-in-ids"
+  },
+  {
+    "name": "Detect impossible values",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-detect-impossible-values"
+  },
+  {
+    "name": "Detect statistical outliers",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-detect-statistical-outliers"
+  },
+  {
+    "name": "Detect future dates",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-detect-future-dates"
+  },
+  {
+    "name": "Replace sentinel values",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-replace-sentinel-values"
+  },
+  {
+    "name": "Fix shifted columns",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-fix-shifted-columns"
+  },
+  {
+    "name": "Handle merged cells",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-handle-merged-cells"
+  },
+  {
+    "name": "Handle multiline headers",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-handle-multiline-headers"
+  },
+  {
+    "name": "Remove repeated header rows",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-repeated-header-rows"
+  },
+  {
+    "name": "Standardize column names",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-standardize-column-names"
+  },
+  {
+    "name": "Convert column names to snake_case",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-convert-column-names-to-snake-case"
+  },
+  {
+    "name": "Remove spaces from column names",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-spaces-from-column-names"
+  },
+  {
+    "name": "Unpivot data",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-unpivot-data"
+  },
+  {
+    "name": "Reshape data",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-reshape-data"
+  },
+  {
+    "name": "Remove summary rows",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-remove-summary-rows"
+  },
+  {
+    "name": "Fix delimiters",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-fix-delimiters"
+  },
+  {
+    "name": "Fix quoted fields",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-fix-quoted-fields"
+  },
+  {
+    "name": "Fix escape characters",
+    "category": "Cleaning",
+    "example": "Example: Flag records requiring data cleanup.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-fix-escape-characters"
+  },
+  {
+    "name": "Resolve cross-field conflicts",
+    "category": "Cleaning",
+    "example": "Example: Compare inconsistent records across sources.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-resolve-cross-field-conflicts"
+  },
+  {
+    "name": "Detect orphan foreign keys",
+    "category": "Cleaning",
+    "example": "Example: Compare inconsistent records across sources.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-detect-orphan-foreign-keys"
+  },
+  {
+    "name": "Resolve conflicting source records",
+    "category": "Cleaning",
+    "example": "Example: Compare inconsistent records across sources.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-resolve-conflicting-source-records"
+  },
+  {
+    "name": "Cast to integer",
+    "category": "Transformation",
+    "example": "Example: Convert sales text into numeric values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-cast-to-integer"
+  },
+  {
+    "name": "Cast to float",
+    "category": "Transformation",
+    "example": "Example: Convert sales text into numeric values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-cast-to-float"
+  },
+  {
+    "name": "Cast to decimal",
+    "category": "Transformation",
+    "example": "Example: Convert sales text into numeric values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-cast-to-decimal"
+  },
+  {
+    "name": "Cast to boolean",
+    "category": "Transformation",
+    "example": "Example: Convert sales text into numeric values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-cast-to-boolean"
+  },
+  {
+    "name": "Cast to date",
+    "category": "Transformation",
+    "example": "Example: Convert sales text into numeric values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-cast-to-date"
+  },
+  {
+    "name": "Cast to timestamp",
+    "category": "Transformation",
+    "example": "Example: Convert sales text into numeric values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-cast-to-timestamp"
+  },
+  {
+    "name": "Cast to string",
+    "category": "Transformation",
+    "example": "Example: Convert sales text into numeric values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-cast-to-string"
+  },
+  {
+    "name": "Parse explicit formats",
+    "category": "Transformation",
+    "example": "Example: Convert sales text into numeric values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-parse-explicit-formats"
+  },
+  {
+    "name": "ISO 8601 date standardization",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "date",
+    "defaults": {
+      "dateFormat": "%d/%m/%Y"
+    },
+    "id": "REF-transformation-iso-8601-date-standardization"
+  },
+  {
+    "name": "ISO 8601 timestamp standardization",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-iso-8601-timestamp-standardization"
+  },
+  {
+    "name": "Timezone conversion",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-timezone-conversion"
+  },
+  {
+    "name": "UTC normalization",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-utc-normalization"
+  },
+  {
+    "name": "Extract year",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-extract-year"
+  },
+  {
+    "name": "Extract month",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-extract-month"
+  },
+  {
+    "name": "Extract day",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-extract-day"
+  },
+  {
+    "name": "Extract weekday",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-extract-weekday"
+  },
+  {
+    "name": "Extract quarter",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-extract-quarter"
+  },
+  {
+    "name": "Extract week number",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-extract-week-number"
+  },
+  {
+    "name": "Extract hour",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-extract-hour"
+  },
+  {
+    "name": "Date difference",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-date-difference"
+  },
+  {
+    "name": "Age calculation",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-age-calculation"
+  },
+  {
+    "name": "Fiscal period mapping",
+    "category": "Transformation",
+    "example": "Example: Extract reporting month from delivery dates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-fiscal-period-mapping"
+  },
+  {
+    "name": "Split columns",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-split-columns"
+  },
+  {
+    "name": "Concatenate columns",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-concatenate-columns"
+  },
+  {
+    "name": "Substring",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-substring"
+  },
+  {
+    "name": "Regex extract",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-regex-extract"
+  },
+  {
+    "name": "Regex replace",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-regex-replace"
+  },
+  {
+    "name": "Zero padding",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-zero-padding"
+  },
+  {
+    "name": "Truncation",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-truncation"
+  },
+  {
+    "name": "Parse addresses",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-parse-addresses"
+  },
+  {
+    "name": "Parse phone numbers",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-parse-phone-numbers"
+  },
+  {
+    "name": "Extract email domain",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-extract-email-domain"
+  },
+  {
+    "name": "Tokenization",
+    "category": "Transformation",
+    "example": "Example: Split full names into separate columns.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-tokenization"
+  },
+  {
+    "name": "Rounding",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-rounding"
+  },
+  {
+    "name": "Floor",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-floor"
+  },
+  {
+    "name": "Ceiling",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-ceiling"
+  },
+  {
+    "name": "Unit conversion",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-unit-conversion"
+  },
+  {
+    "name": "Currency conversion",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-currency-conversion"
+  },
+  {
+    "name": "Percent to decimal",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-percent-to-decimal"
+  },
+  {
+    "name": "Decimal to percent",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-decimal-to-percent"
+  },
+  {
+    "name": "Log transform",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-log-transform"
+  },
+  {
+    "name": "Square root transform",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-square-root-transform"
+  },
+  {
+    "name": "Box-Cox transform",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-box-cox-transform"
+  },
+  {
+    "name": "Yeo-Johnson transform",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-yeo-johnson-transform"
+  },
+  {
+    "name": "Equal-width binning",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-equal-width-binning"
+  },
+  {
+    "name": "Equal-frequency binning",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-equal-frequency-binning"
+  },
+  {
+    "name": "Custom binning",
+    "category": "Transformation",
+    "example": "Example: Round sales amounts to two decimals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-custom-binning"
+  },
+  {
+    "name": "Min-Max scaling",
+    "category": "Transformation",
+    "example": "Example: Scale sales values for comparison.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-min-max-scaling"
+  },
+  {
+    "name": "Z-score standardization",
+    "category": "Transformation",
+    "example": "Example: Scale sales values for comparison.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-z-score-standardization"
+  },
+  {
+    "name": "Robust scaling",
+    "category": "Transformation",
+    "example": "Example: Scale sales values for comparison.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-robust-scaling"
+  },
+  {
+    "name": "Max-abs scaling",
+    "category": "Transformation",
+    "example": "Example: Scale sales values for comparison.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-max-abs-scaling"
+  },
+  {
+    "name": "L1 normalization",
+    "category": "Transformation",
+    "example": "Example: Scale sales values for comparison.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-l1-normalization"
+  },
+  {
+    "name": "L2 normalization",
+    "category": "Transformation",
+    "example": "Example: Scale sales values for comparison.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-l2-normalization"
+  },
+  {
+    "name": "Decimal scaling",
+    "category": "Transformation",
+    "example": "Example: Scale sales values for comparison.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-decimal-scaling"
+  },
+  {
+    "name": "Label encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-label-encoding"
+  },
+  {
+    "name": "Ordinal encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-ordinal-encoding"
+  },
+  {
+    "name": "One-hot encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-one-hot-encoding"
+  },
+  {
+    "name": "Dummy encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-dummy-encoding"
+  },
+  {
+    "name": "Binary encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-binary-encoding"
+  },
+  {
+    "name": "Frequency encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-frequency-encoding"
+  },
+  {
+    "name": "Count encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-count-encoding"
+  },
+  {
+    "name": "Target encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-target-encoding"
+  },
+  {
+    "name": "Mean encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-mean-encoding"
+  },
+  {
+    "name": "Weight of Evidence",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-weight-of-evidence"
+  },
+  {
+    "name": "Feature hashing",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-feature-hashing"
+  },
+  {
+    "name": "Leave-one-out encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-leave-one-out-encoding"
+  },
+  {
+    "name": "CatBoost encoding",
+    "category": "Transformation",
+    "example": "Example: Encode store categories as numeric features.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-catboost-encoding"
+  },
+  {
+    "name": "Pivot",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-pivot"
+  },
+  {
+    "name": "Unpivot",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-unpivot"
+  },
+  {
+    "name": "Transpose",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-transpose"
+  },
+  {
+    "name": "Join",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-join"
+  },
+  {
+    "name": "Merge",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-merge"
+  },
+  {
+    "name": "Union",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-union"
+  },
+  {
+    "name": "Append",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-append"
+  },
+  {
+    "name": "Group by",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-group-by"
+  },
+  {
+    "name": "Aggregate sum",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-aggregate-sum"
+  },
+  {
+    "name": "Aggregate average",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-aggregate-average"
+  },
+  {
+    "name": "Aggregate count",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-aggregate-count"
+  },
+  {
+    "name": "Aggregate minimum",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-aggregate-minimum"
+  },
+  {
+    "name": "Aggregate maximum",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-aggregate-maximum"
+  },
+  {
+    "name": "Aggregate median",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-aggregate-median"
+  },
+  {
+    "name": "Aggregate mode",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-aggregate-mode"
+  },
+  {
+    "name": "Running total",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-running-total"
+  },
+  {
+    "name": "Rank",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-rank"
+  },
+  {
+    "name": "Lag",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-lag"
+  },
+  {
+    "name": "Lead",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-lead"
+  },
+  {
+    "name": "Filtering",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-filtering"
+  },
+  {
+    "name": "Sorting",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sorting"
+  },
+  {
+    "name": "Sampling",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sampling"
+  },
+  {
+    "name": "Flatten nested JSON",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-flatten-nested-json"
+  },
+  {
+    "name": "Flatten nested XML",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-flatten-nested-xml"
+  },
+  {
+    "name": "Explode arrays",
+    "category": "Transformation",
+    "example": "Example: Summarize weekly sales by retailer.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-explode-arrays"
+  },
+  {
+    "name": "Derived flags",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-derived-flags"
+  },
+  {
+    "name": "Derived ratios",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-derived-ratios"
+  },
+  {
+    "name": "Concatenated keys",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-concatenated-keys"
+  },
+  {
+    "name": "Surrogate keys",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-surrogate-keys"
+  },
+  {
+    "name": "Bucketed categories",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-bucketed-categories"
+  },
+  {
+    "name": "Lookup mapping",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-lookup-mapping"
+  },
+  {
+    "name": "Data hashing",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-data-hashing"
+  },
+  {
+    "name": "Data tokenization",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-data-tokenization"
+  },
+  {
+    "name": "Encryption",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-encryption"
+  },
+  {
+    "name": "Redaction",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-redaction"
+  },
+  {
+    "name": "Partial masking",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-partial-masking"
+  },
+  {
+    "name": "Generalization",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-generalization"
+  },
+  {
+    "name": "K-anonymity",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-k-anonymity"
+  },
+  {
+    "name": "Pseudonymization",
+    "category": "Transformation",
+    "example": "Example: Mask sensitive values before sharing data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-pseudonymization"
+  },
+  {
+    "name": "NOT NULL",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "required",
+    "defaults": {},
+    "id": "REF-validation-not-null"
+  },
+  {
+    "name": "Required value",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "required",
+    "defaults": {},
+    "id": "REF-validation-required-value"
+  },
+  {
+    "name": "UNIQUE",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "unique",
+    "defaults": {},
+    "id": "REF-validation-unique"
+  },
+  {
+    "name": "Primary key",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-primary-key"
+  },
+  {
+    "name": "Composite key uniqueness",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-composite-key-uniqueness"
+  },
+  {
+    "name": "Data type check",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-data-type-check"
+  },
+  {
+    "name": "Min/max range",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "range",
+    "defaults": {},
+    "id": "REF-validation-min-max-range"
+  },
+  {
+    "name": "Minimum string length",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-minimum-string-length"
+  },
+  {
+    "name": "Maximum string length",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-maximum-string-length"
+  },
+  {
+    "name": "Exact string length",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-exact-string-length"
+  },
+  {
+    "name": "Decimal precision",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-decimal-precision"
+  },
+  {
+    "name": "Decimal scale",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-decimal-scale"
+  },
+  {
+    "name": "Allowed values",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-allowed-values"
+  },
+  {
+    "name": "Positive values",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-positive-values"
+  },
+  {
+    "name": "Non-negative values",
+    "category": "Validation",
+    "example": "Example: Require a unique nonempty store ID.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-non-negative-values"
+  },
+  {
+    "name": "Email format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-email-format"
+  },
+  {
+    "name": "Phone format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-phone-format"
+  },
+  {
+    "name": "E.164 phone format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-e-164-phone-format"
+  },
+  {
+    "name": "Malaysia phone format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-malaysia-phone-format"
+  },
+  {
+    "name": "ISO date format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-iso-date-format"
+  },
+  {
+    "name": "Calendar validity",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-calendar-validity"
+  },
+  {
+    "name": "Time format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-time-format"
+  },
+  {
+    "name": "URL format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-url-format"
+  },
+  {
+    "name": "IPv4 format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-ipv4-format"
+  },
+  {
+    "name": "IPv6 format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-ipv6-format"
+  },
+  {
+    "name": "MAC address format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-mac-address-format"
+  },
+  {
+    "name": "UUID format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-uuid-format"
+  },
+  {
+    "name": "Postal code format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-postal-code-format"
+  },
+  {
+    "name": "Malaysia postal code",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-malaysia-postal-code"
+  },
+  {
+    "name": "National ID format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-national-id-format"
+  },
+  {
+    "name": "Malaysia NRIC",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-malaysia-nric"
+  },
+  {
+    "name": "Credit card format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-credit-card-format"
+  },
+  {
+    "name": "IBAN format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-iban-format"
+  },
+  {
+    "name": "ISBN-10 format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-isbn-10-format"
+  },
+  {
+    "name": "ISBN-13 format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-isbn-13-format"
+  },
+  {
+    "name": "Currency amount format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-currency-amount-format"
+  },
+  {
+    "name": "ISO 4217 currency code",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-iso-4217-currency-code"
+  },
+  {
+    "name": "ISO 3166 country code",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-iso-3166-country-code"
+  },
+  {
+    "name": "ISO 639 language code",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-iso-639-language-code"
+  },
+  {
+    "name": "Hex color format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-hex-color-format"
+  },
+  {
+    "name": "Base64 format",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-base64-format"
+  },
+  {
+    "name": "Username rules",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-username-rules"
+  },
+  {
+    "name": "Password complexity",
+    "category": "Validation",
+    "example": "Example: Check values against the required format.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-password-complexity"
+  },
+  {
+    "name": "Cross-field comparison",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-cross-field-comparison"
+  },
+  {
+    "name": "End date after start date",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-end-date-after-start-date"
+  },
+  {
+    "name": "Discount within price",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-discount-within-price"
+  },
+  {
+    "name": "Total equals line-item sum",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-total-equals-line-item-sum"
+  },
+  {
+    "name": "Conditional required field",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-conditional-required-field"
+  },
+  {
+    "name": "Mutually exclusive fields",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-mutually-exclusive-fields"
+  },
+  {
+    "name": "Dependent fields",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-dependent-fields"
+  },
+  {
+    "name": "Date not in future",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-date-not-in-future"
+  },
+  {
+    "name": "Minimum date",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-minimum-date"
+  },
+  {
+    "name": "Age and birthdate consistency",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-age-and-birthdate-consistency"
+  },
+  {
+    "name": "Percentages total 100",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-percentages-total-100"
+  },
+  {
+    "name": "Debit and credit balance",
+    "category": "Validation",
+    "example": "Example: Require shipping date when status is shipped.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-debit-and-credit-balance"
+  },
+  {
+    "name": "Foreign key exists",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-foreign-key-exists"
+  },
+  {
+    "name": "Reference table match",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-reference-table-match"
+  },
+  {
+    "name": "One-to-one cardinality",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-one-to-one-cardinality"
+  },
+  {
+    "name": "One-to-many cardinality",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-one-to-many-cardinality"
+  },
+  {
+    "name": "Expected row count",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-expected-row-count"
+  },
+  {
+    "name": "Expected column count",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-expected-column-count"
+  },
+  {
+    "name": "Source-target row reconciliation",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-source-target-row-reconciliation"
+  },
+  {
+    "name": "Schema names",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-schema-names"
+  },
+  {
+    "name": "Schema order",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-schema-order"
+  },
+  {
+    "name": "Schema types",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-schema-types"
+  },
+  {
+    "name": "Distribution drift",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-distribution-drift"
+  },
+  {
+    "name": "Null-percentage threshold",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-null-percentage-threshold"
+  },
+  {
+    "name": "Data freshness",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-data-freshness"
+  },
+  {
+    "name": "Completeness percentage",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-completeness-percentage"
+  },
+  {
+    "name": "Uniqueness percentage",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-uniqueness-percentage"
+  },
+  {
+    "name": "Validity percentage",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-validity-percentage"
+  },
+  {
+    "name": "Accuracy percentage",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-accuracy-percentage"
+  },
+  {
+    "name": "Consistency percentage",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-consistency-percentage"
+  },
+  {
+    "name": "Source-target checksum comparison",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-source-target-checksum-comparison"
+  },
+  {
+    "name": "Source-target hash comparison",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-source-target-hash-comparison"
+  },
+  {
+    "name": "Control sum",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-control-sum"
+  },
+  {
+    "name": "Control count",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-control-count"
+  },
+  {
+    "name": "Control minimum",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-control-minimum"
+  },
+  {
+    "name": "Control maximum",
+    "category": "Validation",
+    "example": "Example: Reconcile delivered rows against expected totals.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-control-maximum"
+  },
+  {
+    "name": "MD5",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-md5"
+  },
+  {
+    "name": "SHA-1",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sha-1"
+  },
+  {
+    "name": "SHA-224",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sha-224"
+  },
+  {
+    "name": "SHA-256",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sha-256"
+  },
+  {
+    "name": "SHA-384",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sha-384"
+  },
+  {
+    "name": "SHA-512",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sha-512"
+  },
+  {
+    "name": "SHA-512/256",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sha-512-256"
+  },
+  {
+    "name": "SHA3-224",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sha3-224"
+  },
+  {
+    "name": "SHA3-256",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sha3-256"
+  },
+  {
+    "name": "SHA3-384",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sha3-384"
+  },
+  {
+    "name": "SHA3-512",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sha3-512"
+  },
+  {
+    "name": "SHAKE128",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-shake128"
+  },
+  {
+    "name": "SHAKE256",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-shake256"
+  },
+  {
+    "name": "BLAKE2b",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-blake2b"
+  },
+  {
+    "name": "BLAKE2s",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-blake2s"
+  },
+  {
+    "name": "BLAKE3",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-blake3"
+  },
+  {
+    "name": "RIPEMD-160",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-ripemd-160"
+  },
+  {
+    "name": "Whirlpool",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-whirlpool"
+  },
+  {
+    "name": "SM3",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sm3"
+  },
+  {
+    "name": "GOST R 34.11",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-gost-r-34-11"
+  },
+  {
+    "name": "Keccak",
+    "category": "Transformation",
+    "example": "Example: Generate a fingerprint for each data row.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-keccak"
+  },
+  {
+    "name": "bcrypt",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-bcrypt"
+  },
+  {
+    "name": "scrypt",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-scrypt"
+  },
+  {
+    "name": "Argon2",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-argon2"
+  },
+  {
+    "name": "Argon2id",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-argon2id"
+  },
+  {
+    "name": "Argon2i",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-argon2i"
+  },
+  {
+    "name": "Argon2d",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-argon2d"
+  },
+  {
+    "name": "PBKDF2",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-pbkdf2"
+  },
+  {
+    "name": "HKDF",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-hkdf"
+  },
+  {
+    "name": "HMAC",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-hmac"
+  },
+  {
+    "name": "HMAC-SHA256",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-hmac-sha256"
+  },
+  {
+    "name": "CMAC",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-cmac"
+  },
+  {
+    "name": "Poly1305",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-poly1305"
+  },
+  {
+    "name": "SipHash",
+    "category": "Transformation",
+    "example": "Example: Derive a protected representation of sensitive data.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-siphash"
+  },
+  {
+    "name": "MurmurHash",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-murmurhash"
+  },
+  {
+    "name": "Murmur2",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-murmur2"
+  },
+  {
+    "name": "Murmur3",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-murmur3"
+  },
+  {
+    "name": "xxHash",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-xxhash"
+  },
+  {
+    "name": "XXH32",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-xxh32"
+  },
+  {
+    "name": "XXH64",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-xxh64"
+  },
+  {
+    "name": "XXH3",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-xxh3"
+  },
+  {
+    "name": "XXH128",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-xxh128"
+  },
+  {
+    "name": "CityHash",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-cityhash"
+  },
+  {
+    "name": "FarmHash",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-farmhash"
+  },
+  {
+    "name": "FNV-1",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-fnv-1"
+  },
+  {
+    "name": "FNV-1a",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-fnv-1a"
+  },
+  {
+    "name": "Jenkins lookup3",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-jenkins-lookup3"
+  },
+  {
+    "name": "Jenkins one-at-a-time",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-jenkins-one-at-a-time"
+  },
+  {
+    "name": "SpookyHash",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-spookyhash"
+  },
+  {
+    "name": "wyhash",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-wyhash"
+  },
+  {
+    "name": "MetroHash",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-metrohash"
+  },
+  {
+    "name": "HighwayHash",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-highwayhash"
+  },
+  {
+    "name": "DJB2",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-djb2"
+  },
+  {
+    "name": "SDBM",
+    "category": "Transformation",
+    "example": "Example: Assign records to consistent data buckets.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-sdbm"
+  },
+  {
+    "name": "CRC-8",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-crc-8"
+  },
+  {
+    "name": "CRC-16",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-crc-16"
+  },
+  {
+    "name": "CRC-32",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-crc-32"
+  },
+  {
+    "name": "CRC-32C",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-crc-32c"
+  },
+  {
+    "name": "CRC-64",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-crc-64"
+  },
+  {
+    "name": "Adler-32",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-adler-32"
+  },
+  {
+    "name": "Fletcher checksum",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-fletcher-checksum"
+  },
+  {
+    "name": "Parity bit",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-parity-bit"
+  },
+  {
+    "name": "LRC",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-lrc"
+  },
+  {
+    "name": "Luhn",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-luhn"
+  },
+  {
+    "name": "Verhoeff",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-verhoeff"
+  },
+  {
+    "name": "Damm",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-damm"
+  },
+  {
+    "name": "ISBN checksum",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-isbn-checksum"
+  },
+  {
+    "name": "EAN checksum",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-ean-checksum"
+  },
+  {
+    "name": "UPC checksum",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-upc-checksum"
+  },
+  {
+    "name": "Mod-97",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-mod-97"
+  },
+  {
+    "name": "Mod-11",
+    "category": "Validation",
+    "example": "Example: Verify a value using its check digit.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-mod-11"
+  },
+  {
+    "name": "MinHash",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-minhash"
+  },
+  {
+    "name": "SimHash",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-simhash"
+  },
+  {
+    "name": "Locality-Sensitive Hashing",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-locality-sensitive-hashing"
+  },
+  {
+    "name": "Bloom filter",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-bloom-filter"
+  },
+  {
+    "name": "Count-Min Sketch",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-count-min-sketch"
+  },
+  {
+    "name": "HyperLogLog",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-hyperloglog"
+  },
+  {
+    "name": "Perceptual hash",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-perceptual-hash"
+  },
+  {
+    "name": "pHash",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-phash"
+  },
+  {
+    "name": "aHash",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-ahash"
+  },
+  {
+    "name": "dHash",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-dhash"
+  },
+  {
+    "name": "ssdeep",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-ssdeep"
+  },
+  {
+    "name": "TLSH",
+    "category": "Cleaning",
+    "example": "Example: Identify similar or repeated records.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-tlsh"
+  },
+  {
+    "name": "Consistent hashing",
+    "category": "Transformation",
+    "example": "Example: Fingerprint records to detect changes.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-consistent-hashing"
+  },
+  {
+    "name": "Rendezvous hashing",
+    "category": "Transformation",
+    "example": "Example: Fingerprint records to detect changes.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-rendezvous-hashing"
+  },
+  {
+    "name": "Row fingerprint",
+    "category": "Transformation",
+    "example": "Example: Fingerprint records to detect changes.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-row-fingerprint"
+  },
+  {
+    "name": "Change data capture",
+    "category": "Transformation",
+    "example": "Example: Fingerprint records to detect changes.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-change-data-capture"
+  },
+  {
+    "name": "Hash-based surrogate key",
+    "category": "Transformation",
+    "example": "Example: Fingerprint records to detect changes.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-hash-based-surrogate-key"
+  },
+  {
+    "name": "Salted SHA-256 pseudonymization",
+    "category": "Transformation",
+    "example": "Example: Fingerprint records to detect changes.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-salted-sha-256-pseudonymization"
+  },
+  {
+    "name": "HMAC pseudonymization",
+    "category": "Transformation",
+    "example": "Example: Fingerprint records to detect changes.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-hmac-pseudonymization"
+  },
+  {
+    "name": "Partitioning",
+    "category": "Transformation",
+    "example": "Example: Fingerprint records to detect changes.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-partitioning"
+  },
+  {
+    "name": "Bucketing",
+    "category": "Transformation",
+    "example": "Example: Fingerprint records to detect changes.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-bucketing"
+  },
+  {
+    "name": "File integrity verification",
+    "category": "Validation",
+    "example": "Example: Verify that a delivered file is unchanged.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-file-integrity-verification"
+  },
+  {
+    "name": "Levenshtein distance",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-levenshtein-distance"
+  },
+  {
+    "name": "Damerau-Levenshtein distance",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-damerau-levenshtein-distance"
+  },
+  {
+    "name": "Hamming distance",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-hamming-distance"
+  },
+  {
+    "name": "Jaro similarity",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-jaro-similarity"
+  },
+  {
+    "name": "Jaro-Winkler similarity",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-jaro-winkler-similarity"
+  },
+  {
+    "name": "Longest Common Subsequence",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-longest-common-subsequence"
+  },
+  {
+    "name": "Longest Common Substring",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-longest-common-substring"
+  },
+  {
+    "name": "N-gram similarity",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-n-gram-similarity"
+  },
+  {
+    "name": "Q-gram similarity",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-q-gram-similarity"
+  },
+  {
+    "name": "Jaccard similarity",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-jaccard-similarity"
+  },
+  {
+    "name": "Dice similarity",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-dice-similarity"
+  },
+  {
+    "name": "Overlap coefficient",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-overlap-coefficient"
+  },
+  {
+    "name": "Cosine similarity",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-cosine-similarity"
+  },
+  {
+    "name": "Token sort ratio",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-token-sort-ratio"
+  },
+  {
+    "name": "Token set ratio",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-token-set-ratio"
+  },
+  {
+    "name": "Monge-Elkan",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-monge-elkan"
+  },
+  {
+    "name": "Smith-Waterman",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-smith-waterman"
+  },
+  {
+    "name": "Needleman-Wunsch",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-needleman-wunsch"
+  },
+  {
+    "name": "Soft TF-IDF",
+    "category": "Cleaning",
+    "example": "Example: Match retailer names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-soft-tf-idf"
+  },
+  {
+    "name": "Soundex",
+    "category": "Cleaning",
+    "example": "Example: Match names with similar pronunciation.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-soundex"
+  },
+  {
+    "name": "Refined Soundex",
+    "category": "Cleaning",
+    "example": "Example: Match names with similar pronunciation.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-refined-soundex"
+  },
+  {
+    "name": "Metaphone",
+    "category": "Cleaning",
+    "example": "Example: Match names with similar pronunciation.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-metaphone"
+  },
+  {
+    "name": "Double Metaphone",
+    "category": "Cleaning",
+    "example": "Example: Match names with similar pronunciation.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-double-metaphone"
+  },
+  {
+    "name": "NYSIIS",
+    "category": "Cleaning",
+    "example": "Example: Match names with similar pronunciation.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-nysiis"
+  },
+  {
+    "name": "Match Rating Approach",
+    "category": "Cleaning",
+    "example": "Example: Match names with similar pronunciation.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-match-rating-approach"
+  },
+  {
+    "name": "Caverphone",
+    "category": "Cleaning",
+    "example": "Example: Match names with similar pronunciation.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-caverphone"
+  },
+  {
+    "name": "Daitch-Mokotoff",
+    "category": "Cleaning",
+    "example": "Example: Match names with similar pronunciation.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-daitch-mokotoff"
+  },
+  {
+    "name": "Standard blocking",
+    "category": "Cleaning",
+    "example": "Example: Group records describing the same store.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-standard-blocking"
+  },
+  {
+    "name": "Sorted neighborhood blocking",
+    "category": "Cleaning",
+    "example": "Example: Group records describing the same store.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-sorted-neighborhood-blocking"
+  },
+  {
+    "name": "Canopy clustering",
+    "category": "Cleaning",
+    "example": "Example: Group records describing the same store.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-canopy-clustering"
+  },
+  {
+    "name": "Fellegi-Sunter matching",
+    "category": "Cleaning",
+    "example": "Example: Group records describing the same store.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-fellegi-sunter-matching"
+  },
+  {
+    "name": "Rule-based matching",
+    "category": "Cleaning",
+    "example": "Example: Group records describing the same store.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-rule-based-matching"
+  },
+  {
+    "name": "ML-based matching",
+    "category": "Cleaning",
+    "example": "Example: Group records describing the same store.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-ml-based-matching"
+  },
+  {
+    "name": "Union-Find clustering",
+    "category": "Cleaning",
+    "example": "Example: Group records describing the same store.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-union-find-clustering"
+  },
+  {
+    "name": "Golden record survivorship",
+    "category": "Cleaning",
+    "example": "Example: Group records describing the same store.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-golden-record-survivorship"
+  },
+  {
+    "name": "Z-score outliers",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-z-score-outliers"
+  },
+  {
+    "name": "Modified Z-score outliers",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-modified-z-score-outliers"
+  },
+  {
+    "name": "IQR outliers",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-iqr-outliers"
+  },
+  {
+    "name": "Percentile treatment",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-percentile-treatment"
+  },
+  {
+    "name": "Winsorization",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-winsorization"
+  },
+  {
+    "name": "Trimming",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-trimming"
+  },
+  {
+    "name": "Grubbs test",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-grubbs-test"
+  },
+  {
+    "name": "Dixon Q test",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-dixon-q-test"
+  },
+  {
+    "name": "Generalized ESD",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-generalized-esd"
+  },
+  {
+    "name": "Chauvenet criterion",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-chauvenet-criterion"
+  },
+  {
+    "name": "Mahalanobis distance",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-mahalanobis-distance"
+  },
+  {
+    "name": "DBSCAN",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-dbscan"
+  },
+  {
+    "name": "Local Outlier Factor",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-local-outlier-factor"
+  },
+  {
+    "name": "Isolation Forest",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-isolation-forest"
+  },
+  {
+    "name": "One-Class SVM",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-one-class-svm"
+  },
+  {
+    "name": "K-means distance",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-k-means-distance"
+  },
+  {
+    "name": "Elliptic Envelope",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-elliptic-envelope"
+  },
+  {
+    "name": "Autoencoders",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-autoencoders"
+  },
+  {
+    "name": "Moving average",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-moving-average"
+  },
+  {
+    "name": "Seasonal decomposition",
+    "category": "Cleaning",
+    "example": "Example: Flag unusual weekly sales values.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-seasonal-decomposition"
+  },
+  {
+    "name": "Mean imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-mean-imputation"
+  },
+  {
+    "name": "Median imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-median-imputation"
+  },
+  {
+    "name": "Mode imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-mode-imputation"
+  },
+  {
+    "name": "Constant imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-constant-imputation"
+  },
+  {
+    "name": "Forward fill",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-forward-fill"
+  },
+  {
+    "name": "Backward fill",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-backward-fill"
+  },
+  {
+    "name": "Linear interpolation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-linear-interpolation"
+  },
+  {
+    "name": "Spline interpolation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-spline-interpolation"
+  },
+  {
+    "name": "KNN imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-knn-imputation"
+  },
+  {
+    "name": "Regression imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-regression-imputation"
+  },
+  {
+    "name": "MICE imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-mice-imputation"
+  },
+  {
+    "name": "Hot-deck imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-hot-deck-imputation"
+  },
+  {
+    "name": "Cold-deck imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-cold-deck-imputation"
+  },
+  {
+    "name": "Expectation-Maximization imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-expectation-maximization-imputation"
+  },
+  {
+    "name": "MissForest imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-missforest-imputation"
+  },
+  {
+    "name": "Matrix factorization imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-matrix-factorization-imputation"
+  },
+  {
+    "name": "Model-based imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-model-based-imputation"
+  },
+  {
+    "name": "Deep learning imputation",
+    "category": "Cleaning",
+    "example": "Example: Fill missing sales using suitable estimates.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-deep-learning-imputation"
+  },
+  {
+    "name": "PCA",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-pca"
+  },
+  {
+    "name": "SVD",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-svd"
+  },
+  {
+    "name": "LDA",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-lda"
+  },
+  {
+    "name": "T-SNE",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-t-sne"
+  },
+  {
+    "name": "UMAP",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-umap"
+  },
+  {
+    "name": "Variance threshold",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-variance-threshold"
+  },
+  {
+    "name": "Correlation filter",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-correlation-filter"
+  },
+  {
+    "name": "Chi-square feature selection",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-chi-square-feature-selection"
+  },
+  {
+    "name": "ANOVA F-test",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-anova-f-test"
+  },
+  {
+    "name": "Mutual information",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-mutual-information"
+  },
+  {
+    "name": "Recursive feature elimination",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-recursive-feature-elimination"
+  },
+  {
+    "name": "LASSO",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-lasso"
+  },
+  {
+    "name": "Tree-based importance",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-tree-based-importance"
+  },
+  {
+    "name": "SMOTE",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-smote"
+  },
+  {
+    "name": "ADASYN",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-adasyn"
+  },
+  {
+    "name": "Random oversampling",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-random-oversampling"
+  },
+  {
+    "name": "Random undersampling",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-random-undersampling"
+  },
+  {
+    "name": "Tomek links",
+    "category": "Transformation",
+    "example": "Example: Prepare numeric features for analytical models.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-tomek-links"
+  },
+  {
+    "name": "Porter stemming",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-porter-stemming"
+  },
+  {
+    "name": "Snowball stemming",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-snowball-stemming"
+  },
+  {
+    "name": "Lancaster stemming",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-lancaster-stemming"
+  },
+  {
+    "name": "Lemmatization",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-lemmatization"
+  },
+  {
+    "name": "TF-IDF",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-tf-idf"
+  },
+  {
+    "name": "Bag of Words",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-bag-of-words"
+  },
+  {
+    "name": "Word embeddings",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-word-embeddings"
+  },
+  {
+    "name": "Named Entity Recognition",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-named-entity-recognition"
+  },
+  {
+    "name": "Language detection",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-language-detection"
+  },
+  {
+    "name": "Address geocoding",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-address-geocoding"
+  },
+  {
+    "name": "Punycode",
+    "category": "Transformation",
+    "example": "Example: Normalize text for downstream analysis.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-punycode"
+  },
+  {
+    "name": "Regex matching",
+    "category": "Validation",
+    "example": "Example: Verify data follows the required standard.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-regex-matching"
+  },
+  {
+    "name": "Unicode normalization checks",
+    "category": "Validation",
+    "example": "Example: Verify data follows the required standard.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-unicode-normalization-checks"
+  },
+  {
+    "name": "ISO 8601 checks",
+    "category": "Validation",
+    "example": "Example: Verify data follows the required standard.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-iso-8601-checks"
+  },
+  {
+    "name": "E.164 checks",
+    "category": "Validation",
+    "example": "Example: Verify data follows the required standard.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-e-164-checks"
+  },
+  {
+    "name": "RFC 5322 email checks",
+    "category": "Validation",
+    "example": "Example: Verify data follows the required standard.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-rfc-5322-email-checks"
+  },
+  {
+    "name": "Sort-and-compare deduplication",
+    "category": "Cleaning",
+    "example": "Example: Find repeated rows before processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-sort-and-compare-deduplication"
+  },
+  {
+    "name": "Hash-based deduplication",
+    "category": "Cleaning",
+    "example": "Example: Find repeated rows before processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-hash-based-deduplication"
+  },
+  {
+    "name": "Bloom filter prefilter",
+    "category": "Cleaning",
+    "example": "Example: Find repeated rows before processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-bloom-filter-prefilter"
+  },
+  {
+    "name": "Merge sort",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-merge-sort"
+  },
+  {
+    "name": "External sort",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-external-sort"
+  },
+  {
+    "name": "Binary search",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-binary-search"
+  },
+  {
+    "name": "Trie",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-trie"
+  },
+  {
+    "name": "BK-tree",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-bk-tree"
+  },
+  {
+    "name": "Base64 encoding",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-base64-encoding"
+  },
+  {
+    "name": "Base32 encoding",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-base32-encoding"
+  },
+  {
+    "name": "Hex encoding",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-hex-encoding"
+  },
+  {
+    "name": "URL encoding",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-url-encoding"
+  },
+  {
+    "name": "Run-length encoding",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-run-length-encoding"
+  },
+  {
+    "name": "Huffman coding",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-huffman-coding"
+  },
+  {
+    "name": "LZ77",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-lz77"
+  },
+  {
+    "name": "LZ78",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-lz78"
+  },
+  {
+    "name": "DEFLATE",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-deflate"
+  },
+  {
+    "name": "Gzip",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-gzip"
+  },
+  {
+    "name": "Bzip2",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-bzip2"
+  },
+  {
+    "name": "LZ4",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-lz4"
+  },
+  {
+    "name": "Snappy",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-snappy"
+  },
+  {
+    "name": "Zstandard",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-zstandard"
+  },
+  {
+    "name": "Dictionary encoding",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-dictionary-encoding"
+  },
+  {
+    "name": "Delta encoding",
+    "category": "Transformation",
+    "example": "Example: Encode or organize data for processing.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-delta-encoding"
+  },
+  {
+    "name": "Kolmogorov-Smirnov test",
+    "category": "Validation",
+    "example": "Example: Detect unusual changes in data distributions.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-kolmogorov-smirnov-test"
+  },
+  {
+    "name": "Chi-square test",
+    "category": "Validation",
+    "example": "Example: Detect unusual changes in data distributions.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-chi-square-test"
+  },
+  {
+    "name": "Shapiro-Wilk test",
+    "category": "Validation",
+    "example": "Example: Detect unusual changes in data distributions.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-shapiro-wilk-test"
+  },
+  {
+    "name": "Population Stability Index",
+    "category": "Validation",
+    "example": "Example: Detect unusual changes in data distributions.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-population-stability-index"
+  },
+  {
+    "name": "KL divergence",
+    "category": "Validation",
+    "example": "Example: Detect unusual changes in data distributions.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-kl-divergence"
+  },
+  {
+    "name": "Jensen-Shannon divergence",
+    "category": "Validation",
+    "example": "Example: Detect unusual changes in data distributions.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-jensen-shannon-divergence"
+  },
+  {
+    "name": "Benford Law",
+    "category": "Validation",
+    "example": "Example: Detect unusual changes in data distributions.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-benford-law"
+  },
+  {
+    "name": "Time-series resampling",
+    "category": "Cleaning",
+    "example": "Example: Smooth noisy time-series observations.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-time-series-resampling"
+  },
+  {
+    "name": "Time-series gap filling",
+    "category": "Cleaning",
+    "example": "Example: Smooth noisy time-series observations.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-time-series-gap-filling"
+  },
+  {
+    "name": "Moving average smoothing",
+    "category": "Cleaning",
+    "example": "Example: Smooth noisy time-series observations.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-moving-average-smoothing"
+  },
+  {
+    "name": "Exponential smoothing",
+    "category": "Cleaning",
+    "example": "Example: Smooth noisy time-series observations.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-exponential-smoothing"
+  },
+  {
+    "name": "Kalman filter",
+    "category": "Cleaning",
+    "example": "Example: Smooth noisy time-series observations.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-kalman-filter"
+  },
+  {
+    "name": "Change-point detection",
+    "category": "Cleaning",
+    "example": "Example: Smooth noisy time-series observations.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-change-point-detection"
+  },
+  {
+    "name": "Latitude validation",
+    "category": "Validation",
+    "example": "Example: Check coordinates fall within valid ranges.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-latitude-validation"
+  },
+  {
+    "name": "Longitude validation",
+    "category": "Validation",
+    "example": "Example: Check coordinates fall within valid ranges.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-longitude-validation"
+  },
+  {
+    "name": "Coordinate validation",
+    "category": "Validation",
+    "example": "Example: Check coordinates fall within valid ranges.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-validation-coordinate-validation"
+  },
+  {
+    "name": "Haversine distance",
+    "category": "Transformation",
+    "example": "Example: Calculate distance between store locations.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-haversine-distance"
+  },
+  {
+    "name": "CRS reprojection",
+    "category": "Transformation",
+    "example": "Example: Calculate distance between store locations.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-crs-reprojection"
+  },
+  {
+    "name": "Geohash",
+    "category": "Transformation",
+    "example": "Example: Calculate distance between store locations.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-geohash"
+  },
+  {
+    "name": "FuzzyWuzzy",
+    "category": "Cleaning",
+    "example": "Example: Match names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-fuzzywuzzy"
+  },
+  {
+    "name": "RapidFuzz",
+    "category": "Cleaning",
+    "example": "Example: Match names with minor spelling differences.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-cleaning-rapidfuzz"
+  },
+  {
+    "name": "Libpostal address parsing",
+    "category": "Transformation",
+    "example": "Example: Split store addresses into structured fields.",
+    "operation": "reference",
+    "defaults": {},
+    "id": "REF-transformation-libpostal-address-parsing"
+  }
+]

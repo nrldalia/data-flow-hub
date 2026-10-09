@@ -1,0 +1,1 @@
+Production Vite build and backend tests passed. ISO-week tests cover cross-week reprocessing and baseline recalculation, default same-week replacement, invalid weeks/request shapes, concurrent target-week rejection and cancelled replacement preservation. Interactive browser verification was not performed.
