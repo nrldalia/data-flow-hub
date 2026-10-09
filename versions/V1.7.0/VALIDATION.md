@@ -1,0 +1,1 @@
+Production Vite build and backend tests passed. History tests cover version creation, unchanged saves, immutable older descriptions, failed-save atomicity, batch snapshot pinning despite later changes, reprocessing latest version, history retention after retailer deletion, store-approval versioning and honest legacy provenance. Interactive browser verification was not performed.
